@@ -1,0 +1,12 @@
+{
+  "cited_pages_checked": 71,
+  "topic_on_exact_page": 63,
+  "topic_within_1_page": 64,
+  "strict_miss_pages": [
+    126,
+    145,
+    198,
+    262
+  ],
+  "note": "all strict misses are keyword-morphology artifacts, manually confirmed on-topic"
+}

@@ -1,0 +1,10 @@
+{
+  "qwen2.5:7b": {
+    "out_of_scope_refusal_rate": 1.0,
+    "in_scope_refusal_rate": 0.0
+  },
+  "llama3.1:8b-instruct-q4_K_M": {
+    "out_of_scope_refusal_rate": 1.0,
+    "in_scope_refusal_rate": 0.0
+  }
+}

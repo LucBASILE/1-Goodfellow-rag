@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Generated artifacts
+chroma/
+output/
+
+# Copyrighted book content — never commit (the book is not redistributable).
+# data/      : the source PDF (obtain your own copy, see README)
+# extracted/ : the Nougat JSONL — derived text of the book
+data/
+extracted/
+
+# Cached model weights (HuggingFace)
+.cache/
+
+# Jupyter checkpoints (may contain cell outputs = book text)
+.ipynb_checkpoints/

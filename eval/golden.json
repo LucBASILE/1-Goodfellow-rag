@@ -1,0 +1,1046 @@
+[
+  {
+    "question": "What is backpropagation?",
+    "type": "definition",
+    "page_ranges": [
+      [
+        219,
+        238
+      ]
+    ]
+  },
+  {
+    "question": "What is dropout and why is it used?",
+    "type": "definition",
+    "page_ranges": [
+      [
+        270,
+        284
+      ]
+    ]
+  },
+  {
+    "question": "What is principal components analysis (PCA)?",
+    "type": "definition",
+    "page_ranges": [
+      [
+        63,
+        68
+      ]
+    ]
+  },
+  {
+    "question": "What is eigendecomposition of a matrix?",
+    "type": "definition",
+    "page_ranges": [
+      [
+        57,
+        59
+      ]
+    ]
+  },
+  {
+    "question": "What is the singular value decomposition (SVD)?",
+    "type": "definition",
+    "page_ranges": [
+      [
+        59,
+        61
+      ]
+    ]
+  },
+  {
+    "question": "What is maximum likelihood estimation?",
+    "type": "definition",
+    "page_ranges": [
+      [
+        146,
+        151
+      ]
+    ]
+  },
+  {
+    "question": "What is batch normalization?",
+    "type": "definition",
+    "page_ranges": [
+      [
+        332,
+        336
+      ]
+    ]
+  },
+  {
+    "question": "What is the convolution operation in a convolutional network?",
+    "type": "definition",
+    "page_ranges": [
+      [
+        346,
+        350
+      ]
+    ]
+  },
+  {
+    "question": "What is pooling in a convolutional network?",
+    "type": "definition",
+    "page_ranges": [
+      [
+        352,
+        363
+      ]
+    ]
+  },
+  {
+    "question": "What is a long short-term memory (LSTM) network?",
+    "type": "definition",
+    "page_ranges": [
+      [
+        423,
+        426
+      ]
+    ]
+  },
+  {
+    "question": "What is the Kullback-Leibler (KL) divergence?",
+    "type": "definition",
+    "page_ranges": [
+      [
+        89,
+        91
+      ]
+    ]
+  },
+  {
+    "question": "What are rectified linear units (ReLU)?",
+    "type": "definition",
+    "page_ranges": [
+      [
+        206,
+        210
+      ]
+    ]
+  },
+  {
+    "question": "What is momentum in gradient-based optimization?",
+    "type": "definition",
+    "page_ranges": [
+      [
+        311,
+        315
+      ]
+    ]
+  },
+  {
+    "question": "What is early stopping?",
+    "type": "definition",
+    "page_ranges": [
+      [
+        262,
+        268
+      ]
+    ]
+  },
+  {
+    "question": "What is a denoising autoencoder?",
+    "type": "definition",
+    "page_ranges": [
+      [
+        522,
+        529
+      ]
+    ]
+  },
+  {
+    "question": "What is a design matrix?",
+    "type": "definition",
+    "page_ranges": [
+      [
+        121,
+        123
+      ]
+    ]
+  },
+  {
+    "question": "What is transfer learning?",
+    "type": "concept",
+    "page_ranges": [
+      [
+        551,
+        556
+      ]
+    ]
+  },
+  {
+    "question": "What is the curse of dimensionality?",
+    "type": "concept",
+    "page_ranges": [
+      [
+        170,
+        172
+      ]
+    ]
+  },
+  {
+    "question": "What is the bias-variance tradeoff?",
+    "type": "concept",
+    "page_ranges": [
+      [
+        144,
+        146
+      ]
+    ]
+  },
+  {
+    "question": "What is the difference between overfitting and underfitting?",
+    "type": "comparison",
+    "page_ranges": [
+      [
+        126,
+        131
+      ]
+    ]
+  },
+  {
+    "question": "What is the difference between L1 and L2 regularization?",
+    "type": "comparison",
+    "page_ranges": [
+      [
+        246,
+        253
+      ]
+    ]
+  },
+  {
+    "question": "Why can a model with more capacity end up overfitting the training data?",
+    "type": "why",
+    "page_ranges": [
+      [
+        126,
+        136
+      ]
+    ]
+  },
+  {
+    "question": "Why do recurrent networks struggle to learn long-term dependencies?",
+    "type": "why",
+    "page_ranges": [
+      [
+        416,
+        419
+      ]
+    ]
+  },
+  {
+    "question": "Why is the ReLU activation often preferred over the sigmoid in hidden layers?",
+    "type": "why",
+    "page_ranges": [
+      [
+        206,
+        210
+      ]
+    ]
+  },
+  {
+    "question": "How is the chain rule of calculus used in backpropagation?",
+    "type": "how",
+    "page_ranges": [
+      [
+        220,
+        236
+      ]
+    ]
+  },
+  {
+    "question": "How does a convolutional layer use parameter sharing to reduce the number of parameters?",
+    "type": "how",
+    "page_ranges": [
+      [
+        350,
+        354
+      ]
+    ]
+  },
+  {
+    "question": "How can exploding gradients be handled during training?",
+    "type": "how",
+    "page_ranges": [
+      [
+        428,
+        432
+      ]
+    ]
+  },
+  {
+    "question": "When should you collect more training data rather than keep tuning the model?",
+    "type": "when",
+    "page_ranges": [
+      [
+        441,
+        443
+      ]
+    ]
+  },
+  {
+    "question": "Is a deeper network always better than a wider shallow one?",
+    "type": "misconception",
+    "page_ranges": [
+      [
+        213,
+        218
+      ]
+    ]
+  },
+  {
+    "question": "How does the KL divergence relate to maximum likelihood estimation?",
+    "type": "multi-source",
+    "page_ranges": [
+      [
+        89,
+        91
+      ],
+      [
+        146,
+        149
+      ]
+    ]
+  },
+  {
+    "question": "In what different ways is principal components analysis (PCA) derived in the book?",
+    "type": "multi-source",
+    "page_ranges": [
+      [
+        63,
+        68
+      ],
+      [
+        162,
+        165
+      ]
+    ]
+  },
+  {
+    "question": "What are the main techniques used to regularize a deep neural network?",
+    "type": "multi-source",
+    "page_ranges": [
+      [
+        246,
+        253
+      ],
+      [
+        258,
+        268
+      ],
+      [
+        270,
+        284
+      ]
+    ]
+  },
+  {
+    "question": "How is parameter sharing used across different architectures?",
+    "type": "multi-source",
+    "page_ranges": [
+      [
+        268,
+        269
+      ],
+      [
+        350,
+        354
+      ]
+    ]
+  },
+  {
+    "question": "Where in the book is the concept of model capacity discussed?",
+    "type": "multi-source",
+    "page_ranges": [
+      [
+        126,
+        136
+      ],
+      [
+        443,
+        446
+      ]
+    ]
+  },
+  {
+    "question": "What is the trace operator?",
+    "type": "definition",
+    "page_ranges": [
+      [
+        60,
+        63
+      ]
+    ]
+  },
+  {
+    "question": "What is the determinant of a matrix?",
+    "type": "definition",
+    "page_ranges": [
+      [
+        203,
+        206
+      ]
+    ]
+  },
+  {
+    "question": "What is the Moore-Penrose pseudoinverse?",
+    "type": "definition",
+    "page_ranges": [
+      [
+        60,
+        62
+      ]
+    ]
+  },
+  {
+    "question": "What is the expectation of a random variable?",
+    "type": "definition",
+    "page_ranges": [
+      [
+        648,
+        651
+      ]
+    ]
+  },
+  {
+    "question": "What is covariance?",
+    "type": "definition",
+    "page_ranges": [
+      [
+        692,
+        698
+      ]
+    ]
+  },
+  {
+    "question": "What is the softmax function?",
+    "type": "definition",
+    "page_ranges": [
+      [
+        198,
+        206
+      ]
+    ]
+  },
+  {
+    "question": "What is a Gaussian (normal) distribution?",
+    "type": "definition",
+    "page_ranges": [
+      [
+        77,
+        80
+      ]
+    ]
+  },
+  {
+    "question": "What is the Hessian matrix?",
+    "type": "definition",
+    "page_ranges": [
+      [
+        101,
+        109
+      ]
+    ]
+  },
+  {
+    "question": "What is a saddle point?",
+    "type": "definition",
+    "page_ranges": [
+      [
+        299,
+        304
+      ]
+    ]
+  },
+  {
+    "question": "What is a hyperparameter?",
+    "type": "definition",
+    "page_ranges": [
+      [
+        442,
+        447
+      ]
+    ]
+  },
+  {
+    "question": "What is the no free lunch theorem?",
+    "type": "definition",
+    "page_ranges": [
+      [
+        132,
+        136
+      ]
+    ]
+  },
+  {
+    "question": "What is stochastic gradient descent (SGD)?",
+    "type": "definition",
+    "page_ranges": [
+      [
+        165,
+        169
+      ]
+    ]
+  },
+  {
+    "question": "What is a support vector machine?",
+    "type": "definition",
+    "page_ranges": [
+      [
+        155,
+        158
+      ]
+    ]
+  },
+  {
+    "question": "What is the k-nearest neighbors algorithm?",
+    "type": "definition",
+    "page_ranges": [
+      [
+        171,
+        174
+      ]
+    ]
+  },
+  {
+    "question": "What is a decision tree?",
+    "type": "definition",
+    "page_ranges": [
+      [
+        463,
+        467
+      ]
+    ]
+  },
+  {
+    "question": "What is the XOR problem?",
+    "type": "definition",
+    "page_ranges": [
+      [
+        185,
+        190
+      ]
+    ]
+  },
+  {
+    "question": "What is cross-entropy?",
+    "type": "definition",
+    "page_ranges": [
+      [
+        192,
+        197
+      ]
+    ]
+  },
+  {
+    "question": "What is a computational graph?",
+    "type": "definition",
+    "page_ranges": [
+      [
+        221,
+        228
+      ]
+    ]
+  },
+  {
+    "question": "What is dataset augmentation?",
+    "type": "definition",
+    "page_ranges": [
+      [
+        254,
+        257
+      ]
+    ]
+  },
+  {
+    "question": "What is bagging (bootstrap aggregating)?",
+    "type": "definition",
+    "page_ranges": [
+      [
+        276,
+        283
+      ]
+    ]
+  },
+  {
+    "question": "What is the Adam optimizer?",
+    "type": "definition",
+    "page_ranges": [
+      [
+        322,
+        325
+      ]
+    ]
+  },
+  {
+    "question": "What is AdaGrad?",
+    "type": "definition",
+    "page_ranges": [
+      [
+        321,
+        324
+      ]
+    ]
+  },
+  {
+    "question": "What is RMSProp?",
+    "type": "definition",
+    "page_ranges": [
+      [
+        321,
+        324
+      ]
+    ]
+  },
+  {
+    "question": "What is a receptive field?",
+    "type": "definition",
+    "page_ranges": [
+      [
+        379,
+        386
+      ]
+    ]
+  },
+  {
+    "question": "What is stride in a convolution?",
+    "type": "definition",
+    "page_ranges": [
+      [
+        351,
+        373
+      ]
+    ]
+  },
+  {
+    "question": "What is a recurrent neural network (RNN)?",
+    "type": "definition",
+    "page_ranges": [
+      [
+        387,
+        390
+      ]
+    ]
+  },
+  {
+    "question": "What is teacher forcing?",
+    "type": "definition",
+    "page_ranges": [
+      [
+        396,
+        400
+      ]
+    ]
+  },
+  {
+    "question": "What is a bidirectional RNN?",
+    "type": "definition",
+    "page_ranges": [
+      [
+        408,
+        411
+      ]
+    ]
+  },
+  {
+    "question": "What is an encoder-decoder (sequence-to-sequence) architecture?",
+    "type": "definition",
+    "page_ranges": [
+      [
+        410,
+        413
+      ]
+    ]
+  },
+  {
+    "question": "What is a word embedding?",
+    "type": "definition",
+    "page_ranges": [
+      [
+        491,
+        493
+      ]
+    ]
+  },
+  {
+    "question": "What is sparse coding?",
+    "type": "definition",
+    "page_ranges": [
+      [
+        510,
+        514
+      ]
+    ]
+  },
+  {
+    "question": "What is independent component analysis (ICA)?",
+    "type": "definition",
+    "page_ranges": [
+      [
+        505,
+        509
+      ]
+    ]
+  },
+  {
+    "question": "What is a contractive autoencoder?",
+    "type": "definition",
+    "page_ranges": [
+      [
+        535,
+        539
+      ]
+    ]
+  },
+  {
+    "question": "What is a distributed representation?",
+    "type": "definition",
+    "page_ranges": [
+      [
+        560,
+        568
+      ]
+    ]
+  },
+  {
+    "question": "What is a graphical model?",
+    "type": "definition",
+    "page_ranges": [
+      [
+        401,
+        406
+      ]
+    ]
+  },
+  {
+    "question": "What is the partition function?",
+    "type": "definition",
+    "page_ranges": [
+      [
+        637,
+        641
+      ]
+    ]
+  },
+  {
+    "question": "What is a factor graph?",
+    "type": "definition",
+    "page_ranges": [
+      [
+        593,
+        596
+      ]
+    ]
+  },
+  {
+    "question": "What is d-separation?",
+    "type": "definition",
+    "page_ranges": [
+      [
+        586,
+        589
+      ]
+    ]
+  },
+  {
+    "question": "What is Gibbs sampling?",
+    "type": "definition",
+    "page_ranges": [
+      [
+        601,
+        605
+      ]
+    ]
+  },
+  {
+    "question": "What is importance sampling?",
+    "type": "definition",
+    "page_ranges": [
+      [
+        607,
+        611
+      ]
+    ]
+  },
+  {
+    "question": "What is contrastive divergence?",
+    "type": "definition",
+    "page_ranges": [
+      [
+        624,
+        629
+      ]
+    ]
+  },
+  {
+    "question": "What is score matching?",
+    "type": "definition",
+    "page_ranges": [
+      [
+        631,
+        634
+      ]
+    ]
+  },
+  {
+    "question": "What is variational inference?",
+    "type": "definition",
+    "page_ranges": [
+      [
+        653,
+        659
+      ]
+    ]
+  },
+  {
+    "question": "What is a restricted Boltzmann machine (RBM)?",
+    "type": "definition",
+    "page_ranges": [
+      [
+        670,
+        674
+      ]
+    ]
+  },
+  {
+    "question": "What is a generative adversarial network (GAN)?",
+    "type": "definition",
+    "page_ranges": [
+      [
+        558,
+        561
+      ]
+    ]
+  },
+  {
+    "question": "What is a variational autoencoder (VAE)?",
+    "type": "definition",
+    "page_ranges": [
+      [
+        710,
+        715
+      ]
+    ]
+  },
+  {
+    "question": "What is a deep belief network?",
+    "type": "definition",
+    "page_ranges": [
+      [
+        674,
+        678
+      ]
+    ]
+  },
+  {
+    "question": "What is the manifold hypothesis?",
+    "type": "concept",
+    "page_ranges": [
+      [
+        176,
+        180
+      ]
+    ]
+  },
+  {
+    "question": "What is representation learning?",
+    "type": "concept",
+    "page_ranges": [
+      [
+        18,
+        21
+      ]
+    ]
+  },
+  {
+    "question": "What is weight initialization and why does it matter?",
+    "type": "concept",
+    "page_ranges": [
+      [
+        315,
+        322
+      ]
+    ]
+  },
+  {
+    "question": "What is the log-likelihood?",
+    "type": "concept",
+    "page_ranges": [
+      [
+        195,
+        206
+      ]
+    ]
+  },
+  {
+    "question": "What is the difference between directed and undirected graphical models?",
+    "type": "comparison",
+    "page_ranges": [
+      [
+        590,
+        594
+      ]
+    ]
+  },
+  {
+    "question": "What is the difference between batch and stochastic gradient descent?",
+    "type": "comparison",
+    "page_ranges": [
+      [
+        292,
+        297
+      ]
+    ]
+  },
+  {
+    "question": "Why do we maximize the log-likelihood instead of the likelihood?",
+    "type": "why",
+    "page_ranges": [
+      [
+        195,
+        206
+      ]
+    ]
+  },
+  {
+    "question": "Why do saddle points pose a problem for gradient-based optimization?",
+    "type": "why",
+    "page_ranges": [
+      [
+        299,
+        304
+      ]
+    ]
+  },
+  {
+    "question": "How does an autoencoder learn a useful representation?",
+    "type": "how",
+    "page_ranges": [
+      [
+        517,
+        519
+      ]
+    ]
+  },
+  {
+    "question": "How does batch normalization reduce internal covariate shift?",
+    "type": "how",
+    "page_ranges": [
+      [
+        331,
+        337
+      ]
+    ]
+  },
+  {
+    "question": "How does an RBM use an energy function to define a distribution?",
+    "type": "how",
+    "page_ranges": [
+      [
+        693,
+        699
+      ]
+    ]
+  },
+  {
+    "question": "Isn't a neural network just a large logistic regression?",
+    "type": "misconception",
+    "page_ranges": [
+      [
+        17,
+        23
+      ]
+    ]
+  },
+  {
+    "question": "Isn't maximum likelihood estimation the same as minimizing mean squared error?",
+    "type": "misconception",
+    "page_ranges": [
+      [
+        557,
+        561
+      ]
+    ]
+  },
+  {
+    "question": "How can a model represent an exponentially large number of regions with few parameters?",
+    "type": "misconception",
+    "page_ranges": [
+      [
+        213,
+        216
+      ]
+    ]
+  },
+  {
+    "question": "How is the idea of an energy function used across different probabilistic models?",
+    "type": "multi-source",
+    "page_ranges": [
+      [
+        693,
+        699
+      ]
+    ]
+  },
+  {
+    "question": "How is unsupervised pretraining used both as a regularizer and to aid optimization?",
+    "type": "multi-source",
+    "page_ranges": [
+      [
+        542,
+        552
+      ]
+    ]
+  },
+  {
+    "question": "What is a Bernoulli distribution?",
+    "type": "definition",
+    "page_ranges": [
+      [
+        196,
+        201
+      ]
+    ]
+  },
+  {
+    "question": "What is Bayes' rule?",
+    "type": "definition",
+    "page_ranges": [
+      [
+        84,
+        87
+      ]
+    ]
+  },
+  {
+    "question": "What is the learning rate?",
+    "type": "definition",
+    "page_ranges": [
+      [
+        308,
+        311
+      ]
+    ]
+  },
+  {
+    "question": "What is domain adaptation?",
+    "type": "concept",
+    "page_ranges": [
+      [
+        550,
+        553
+      ]
+    ]
+  },
+  {
+    "question": "Why does machine learning minimize empirical risk instead of true risk?",
+    "type": "why",
+    "page_ranges": [
+      [
+        290,
+        292
+      ]
+    ]
+  }
+]

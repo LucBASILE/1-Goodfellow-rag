@@ -1,0 +1,16 @@
+{
+  "qwen2.5:7b": {
+    "grounded_citation_rate": 1.0,
+    "fully_grounded_answers": 1.0,
+    "avg_citations": 1.38,
+    "answers_without_citation": 0.25,
+    "n_answered": 24
+  },
+  "llama3.1:8b-instruct-q4_K_M": {
+    "grounded_citation_rate": 1.0,
+    "fully_grounded_answers": 1.0,
+    "avg_citations": 1.58,
+    "answers_without_citation": 0.0,
+    "n_answered": 24
+  }
+}

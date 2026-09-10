@@ -1,0 +1,194 @@
+{
+  "qwen2.5:7b": {
+    "out_of_scope": [
+      {
+        "question": "What is a Transformer architecture with self-attention?",
+        "refused": true,
+        "answer": "I can't find this in the text."
+      },
+      {
+        "question": "What is BERT?",
+        "refused": true,
+        "answer": "I can't find this in the text."
+      },
+      {
+        "question": "What is GPT (generative pretrained transformer)?",
+        "refused": true,
+        "answer": "I can't find this in the text."
+      },
+      {
+        "question": "What is reinforcement learning from human feedback (RLHF)?",
+        "refused": true,
+        "answer": "I can't find this in the text."
+      },
+      {
+        "question": "What is LoRA (low-rank adaptation) fine-tuning?",
+        "refused": true,
+        "answer": "I can't find this in the text."
+      },
+      {
+        "question": "What is a vision transformer (ViT)?",
+        "refused": true,
+        "answer": "I can't find this in the text."
+      },
+      {
+        "question": "What is retrieval-augmented generation (RAG)?",
+        "refused": true,
+        "answer": "I can't find this in the text."
+      },
+      {
+        "question": "What is prompt engineering for large language models?",
+        "refused": true,
+        "answer": "I can't find this in the text."
+      },
+      {
+        "question": "What is the capital of France?",
+        "refused": true,
+        "answer": "I can't find this in the text."
+      },
+      {
+        "question": "How do I bake a chocolate cake?",
+        "refused": true,
+        "answer": "I can't find this in the text."
+      },
+      {
+        "question": "Who wrote Romeo and Juliet?",
+        "refused": true,
+        "answer": "I can't find this in the text."
+      },
+      {
+        "question": "What is the offside rule in football?",
+        "refused": true,
+        "answer": "I can't find this in the text."
+      }
+    ],
+    "in_scope": [
+      {
+        "question": "What is backpropagation?",
+        "refused": false,
+        "answer": "Back-propagation is a method for computing the gradient of the cost function with respect to the parameters in a neural network. It allows information from the cost to flow backwards through the network to compute the gradient. While often associated with training multi-layer neural networks, back-propagation can compute derivatives of any function and is not specific to neural networks. The algorithm visits each edge in the network graph exactly once to obtain the associated partial derivatives, reducing the number of common subexpressions. (Chapter 6, section 6.5, p219; Chapter 9, section 9.1, p372)"
+      },
+      {
+        "question": "What is dropout?",
+        "refused": false,
+        "answer": "Dropout is a regularization technique that provides a computationally inexpensive method to approximate training and evaluating a bagged ensemble of many large neural networks. Specifically, during training, dropout randomly omits (or \"drops out\") a portion of the units in the network, including their incoming and outgoing connections. This process is equivalent to training a large ensemble of neural networks where each network has a different subset of the original units. By doing so, dropout encourages the network to distribute the learned features more evenly across all units, making the network more robust and generalizable. Dropout also helps in preventing overfitting by making the model less dependent on any single unit."
+      },
+      {
+        "question": "What is maximum likelihood estimation?",
+        "refused": false,
+        "answer": "Maximum likelihood estimation can be interpreted as minimizing the dissimilarity between the empirical distribution \\(\\hat{p}_{\\mathrm{data}}\\) defined by the training set and the model distribution \\(p_{\\mathrm{model}}\\), with the degree of dissimilarity between the two measured by the Kullback-Leibler (KL) divergence. The KL divergence is given by\n\n\\[D_{\\mathrm{KL}}\\left(\\hat{p}_{\\mathrm{data}}\\|p_{\\mathrm{model}}\\right)= \\mathbb{E}_{\\mathbf{x}\\sim\\hat{p}_{\\mathrm{data}}}\\left[\\log\\hat{p}_{\\mathrm{ data}}(\\boldsymbol{x})-\\log p_{\\mathrm{model}}(\\boldsymbol{x})\\right].\\] (5.60)\n\nFor the case where the goal is to estimate a conditional probability \\(P(\\mathbf{y}\\mid\\mathbf{x};\\bm{\\theta})\\), the conditional maximum likelihood estimator is\n\n\\[\\bm{\\theta}_{\\text{ML}}=\\operatorname*{arg\\,max}_{\\bm{\\theta}}P(\\bm{Y}\\mid\\bm{ X};\\bm{\\theta}).\\] (5.62)\n\nIf the examples are assumed to be i.i.d., this can be decomposed into\n\n\\[\\bm{\\theta}_{\\text{ML}}=\\operatorname*{arg\\,max}_{\\bm{\\theta}}\\sum_{i=1}^{m} \\log P(\\bm{y}^{(i)}\\mid\\bm{x}^{(i)};\\bm{\\theta}).\\] (5.63)\n\nI can't find this in the text."
+      },
+      {
+        "question": "What is a convolutional network?",
+        "refused": false,
+        "answer": "A convolutional network (also known as a convolutional neural network or CNN) is a specialized kind of neural network for processing data with a known grid-like topology, such as time-series data or image data. These networks use convolution in place of general matrix multiplication in at least one of their layers. The convolution operation is a specialized linear operation that helps the network learn functions with local interactions and be equivariant to translation. Convolutional networks are also known for employing pooling to make units invariant to small translations. I can't find this in the text."
+      },
+      {
+        "question": "What is early stopping?",
+        "refused": false,
+        "answer": "Early stopping is a form of regularization that involves monitoring the validation set error during the training process and stopping the training when the validation error starts to increase. This acts as a way to prevent overfitting without significantly altering the training procedure, objective function, or parameter space. It can be seen as an efficient method for hyperparameter selection, where the number of training steps is treated as a hyperparameter. The mechanism by which early stopping regularizes the model is related to restricting the optimization procedure to a small volume of parameter space near the initial parameters, similar to the effect of weight decay, but it automatically determines the appropriate level of regularization based on the validation error. (Chapter 7, Regularization for Deep Learning, p262-267)"
+      },
+      {
+        "question": "What is a diffusion model for image generation?",
+        "refused": false,
+        "answer": "A diffusion model for image generation, as described in the context, is a training scheme developed by Sohl-Dickstein _et al._ (2015) based on non-equilibrium thermodynamics. The idea is to gradually destroy the structure of the probability distribution of the target distribution through a diffusion process that increases entropy. To generate images, the model is trained to reverse this process, gradually restoring the structure from an unstructured distribution. This method iteratively applies a process to bring a distribution closer to the target one, aiming to approach the target distribution without the approximations introduced by iterative procedures like Markov Chain Monte Carlo (MCMC) methods. The final step of this chain defines the model, which can be viewed as a generative model similar to the denoising autoencoder."
+      }
+    ]
+  },
+  "llama3.1:8b-instruct-q4_K_M": {
+    "out_of_scope": [
+      {
+        "question": "What is a Transformer architecture with self-attention?",
+        "refused": true,
+        "answer": "I can't find this in the text."
+      },
+      {
+        "question": "What is BERT?",
+        "refused": true,
+        "answer": "I can't find this in the text."
+      },
+      {
+        "question": "What is GPT (generative pretrained transformer)?",
+        "refused": true,
+        "answer": "I can't find this in the text."
+      },
+      {
+        "question": "What is reinforcement learning from human feedback (RLHF)?",
+        "refused": true,
+        "answer": "I can't find this in the text."
+      },
+      {
+        "question": "What is LoRA (low-rank adaptation) fine-tuning?",
+        "refused": true,
+        "answer": "I can't find this in the text."
+      },
+      {
+        "question": "What is a vision transformer (ViT)?",
+        "refused": true,
+        "answer": "I can't find this in the text."
+      },
+      {
+        "question": "What is retrieval-augmented generation (RAG)?",
+        "refused": true,
+        "answer": "I can't find this in the text."
+      },
+      {
+        "question": "What is prompt engineering for large language models?",
+        "refused": true,
+        "answer": "I can't find this in the text."
+      },
+      {
+        "question": "What is the capital of France?",
+        "refused": true,
+        "answer": "I can't find this in the text."
+      },
+      {
+        "question": "How do I bake a chocolate cake?",
+        "refused": true,
+        "answer": "I can't find this in the text."
+      },
+      {
+        "question": "Who wrote Romeo and Juliet?",
+        "refused": true,
+        "answer": "I can't find this in the text."
+      },
+      {
+        "question": "What is the offside rule in football?",
+        "refused": true,
+        "answer": "I can't find this in the text."
+      }
+    ],
+    "in_scope": [
+      {
+        "question": "What is backpropagation?",
+        "refused": false,
+        "answer": "Back-propagation (or backprop) refers to the method for computing the gradient of a function, allowing information to flow backwards through a network (p219)."
+      },
+      {
+        "question": "What is dropout?",
+        "refused": false,
+        "answer": "Dropout is a computationally inexpensive method of regularizing a broad family of models, which can be thought of as a way to make bagging practical for ensembles of very many large neural networks (p273)."
+      },
+      {
+        "question": "What is maximum likelihood estimation?",
+        "refused": false,
+        "answer": "One way to interpret maximum likelihood estimation is to view it as minimizing the dissimilarity between the empirical distribution \\(\\hat{p}_{\\mathrm{data}}\\) defined by the training set and the model distribution, with the degree of dissimilarity between the two measured by the KL divergence. (Chapter 5 Machine Learning Basics > 5.5 Maximum Likelihood Estimation, p147)"
+      },
+      {
+        "question": "What is a convolutional network?",
+        "refused": false,
+        "answer": "A convolutional network is a specialized kind of neural network for processing data that has a known, grid-like topology. (Chapter 9, introduction, p345)"
+      },
+      {
+        "question": "What is early stopping?",
+        "refused": false,
+        "answer": "Early stopping is a form of regularization that requires almost no change in the underlying training procedure, the objective function, or the set of allowable parameter values (Chapter 7, Section 7.8, p263)."
+      },
+      {
+        "question": "What is a diffusion model for image generation?",
+        "refused": false,
+        "answer": "(p731, Chapter 20 Deep Generative Models > 20.13 Other Generation Schemes) A diffusion model for image generation is an approach that involves a diffusion process that incrementally changes the probability distribution of the data to have more entropy, and then running the process in reverse to restore the structure to an unstructured distribution. The diffusion model is defined to be the probability distribution produced by the final step of the chain, and it is similar to the generative interpretation of the denoising autoencoder."
+      }
+    ]
+  }
+}

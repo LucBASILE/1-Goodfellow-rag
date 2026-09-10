@@ -1,0 +1,946 @@
+{
+  "qwen2.5:7b": [
+    {
+      "question": "What is transfer learning?",
+      "type": "concept",
+      "cited_pages": [],
+      "grounded_pages": [],
+      "ungrounded_pages": [],
+      "retrieved_pages": [
+        340,
+        551,
+        553
+      ],
+      "refused": false
+    },
+    {
+      "question": "What is the curse of dimensionality?",
+      "type": "concept",
+      "cited_pages": [
+        170,
+        171
+      ],
+      "grounded_pages": [
+        170,
+        171
+      ],
+      "ungrounded_pages": [],
+      "retrieved_pages": [
+        129,
+        162,
+        170,
+        171
+      ],
+      "refused": false
+    },
+    {
+      "question": "What is the bias-variance tradeoff?",
+      "type": "concept",
+      "cited_pages": [
+        145
+      ],
+      "grounded_pages": [
+        145
+      ],
+      "ungrounded_pages": [],
+      "retrieved_pages": [
+        139,
+        144,
+        145
+      ],
+      "refused": false
+    },
+    {
+      "question": "What is the difference between overfitting and underfitting?",
+      "type": "comparison",
+      "cited_pages": [
+        126,
+        126
+      ],
+      "grounded_pages": [
+        126,
+        126
+      ],
+      "ungrounded_pages": [],
+      "retrieved_pages": [
+        126,
+        130,
+        145,
+        443,
+        444
+      ],
+      "refused": false
+    },
+    {
+      "question": "What is the difference between L1 and L2 regularization?",
+      "type": "comparison",
+      "cited_pages": [
+        250,
+        251
+      ],
+      "grounded_pages": [
+        250,
+        251
+      ],
+      "ungrounded_pages": [],
+      "retrieved_pages": [
+        249,
+        250,
+        251,
+        265,
+        509
+      ],
+      "refused": false
+    },
+    {
+      "question": "Why can a model with more capacity end up overfitting the training data?",
+      "type": "why",
+      "cited_pages": [
+        127
+      ],
+      "grounded_pages": [
+        127
+      ],
+      "ungrounded_pages": [],
+      "retrieved_pages": [
+        126,
+        127,
+        261,
+        297,
+        444
+      ],
+      "refused": false
+    },
+    {
+      "question": "Why do recurrent networks struggle to learn long-term dependencies?",
+      "type": "why",
+      "cited_pages": [
+        418,
+        418
+      ],
+      "grounded_pages": [
+        418,
+        418
+      ],
+      "ungrounded_pages": [],
+      "retrieved_pages": [
+        305,
+        416,
+        418,
+        426
+      ],
+      "refused": false
+    },
+    {
+      "question": "Why is the ReLU activation often preferred over the sigmoid in hidden layers?",
+      "type": "why",
+      "cited_pages": [],
+      "grounded_pages": [],
+      "ungrounded_pages": [],
+      "retrieved_pages": [
+        199,
+        210,
+        211,
+        241
+      ],
+      "refused": false
+    },
+    {
+      "question": "How is the chain rule of calculus used in backpropagation?",
+      "type": "how",
+      "cited_pages": [
+        220
+      ],
+      "grounded_pages": [
+        220
+      ],
+      "ungrounded_pages": [],
+      "retrieved_pages": [
+        220,
+        223,
+        231,
+        236,
+        240
+      ],
+      "refused": false
+    },
+    {
+      "question": "How does a convolutional layer use parameter sharing to reduce the number of parameters?",
+      "type": "how",
+      "cited_pages": [
+        373
+      ],
+      "grounded_pages": [
+        373
+      ],
+      "ungrounded_pages": [],
+      "retrieved_pages": [
+        268,
+        269,
+        350,
+        373,
+        389
+      ],
+      "refused": false
+    },
+    {
+      "question": "How can exploding gradients be handled during training?",
+      "type": "how",
+      "cited_pages": [
+        305,
+        431,
+        422
+      ],
+      "grounded_pages": [
+        305,
+        431,
+        422
+      ],
+      "ungrounded_pages": [],
+      "retrieved_pages": [
+        246,
+        305,
+        317,
+        422,
+        431
+      ],
+      "refused": false
+    },
+    {
+      "question": "How does the KL divergence relate to maximum likelihood estimation?",
+      "type": "multi-source",
+      "cited_pages": [
+        147
+      ],
+      "grounded_pages": [
+        147
+      ],
+      "ungrounded_pages": [],
+      "retrieved_pages": [
+        91,
+        147,
+        148,
+        654
+      ],
+      "refused": false
+    },
+    {
+      "question": "In what different ways is principal components analysis (PCA) derived in the book?",
+      "type": "multi-source",
+      "cited_pages": [
+        162,
+        163,
+        514
+      ],
+      "grounded_pages": [
+        162,
+        163,
+        514
+      ],
+      "ungrounded_pages": [],
+      "retrieved_pages": [
+        162,
+        163,
+        165,
+        514
+      ],
+      "refused": false
+    },
+    {
+      "question": "What are the main techniques used to regularize a deep neural network?",
+      "type": "multi-source",
+      "cited_pages": [
+        262,
+        244
+      ],
+      "grounded_pages": [
+        262,
+        244
+      ],
+      "ungrounded_pages": [],
+      "retrieved_pages": [
+        243,
+        244,
+        262,
+        333
+      ],
+      "refused": false
+    },
+    {
+      "question": "How is parameter sharing used across different architectures?",
+      "type": "multi-source",
+      "cited_pages": [
+        350,
+        721,
+        268
+      ],
+      "grounded_pages": [
+        350,
+        721,
+        268
+      ],
+      "ungrounded_pages": [],
+      "retrieved_pages": [
+        268,
+        269,
+        350,
+        353,
+        721
+      ],
+      "refused": false
+    },
+    {
+      "question": "Where in the book is the concept of model capacity discussed?",
+      "type": "multi-source",
+      "cited_pages": [],
+      "grounded_pages": [],
+      "ungrounded_pages": [],
+      "retrieved_pages": [
+        126,
+        127,
+        128,
+        129,
+        443
+      ],
+      "refused": false
+    },
+    {
+      "question": "What is the manifold hypothesis?",
+      "type": "concept",
+      "cited_pages": [
+        177,
+        179
+      ],
+      "grounded_pages": [
+        177,
+        179
+      ],
+      "ungrounded_pages": [],
+      "retrieved_pages": [
+        176,
+        177,
+        179
+      ],
+      "refused": false
+    },
+    {
+      "question": "What is representation learning?",
+      "type": "concept",
+      "cited_pages": [],
+      "grounded_pages": [],
+      "ungrounded_pages": [],
+      "retrieved_pages": [
+        20,
+        541,
+        542,
+        572
+      ],
+      "refused": false
+    },
+    {
+      "question": "What is weight initialization and why does it matter?",
+      "type": "concept",
+      "cited_pages": [],
+      "grounded_pages": [],
+      "ungrounded_pages": [],
+      "retrieved_pages": [
+        318,
+        319,
+        320
+      ],
+      "refused": true
+    },
+    {
+      "question": "What is the log-likelihood?",
+      "type": "concept",
+      "cited_pages": [],
+      "grounded_pages": [],
+      "ungrounded_pages": [],
+      "retrieved_pages": [
+        198,
+        296,
+        402,
+        482,
+        630
+      ],
+      "refused": false
+    },
+    {
+      "question": "What is the difference between directed and undirected graphical models?",
+      "type": "comparison",
+      "cited_pages": [],
+      "grounded_pages": [],
+      "ungrounded_pages": [],
+      "retrieved_pages": [
+        584,
+        591,
+        592,
+        707
+      ],
+      "refused": false
+    },
+    {
+      "question": "What is the difference between batch and stochastic gradient descent?",
+      "type": "comparison",
+      "cited_pages": [
+        293,
+        167
+      ],
+      "grounded_pages": [
+        293,
+        167
+      ],
+      "ungrounded_pages": [],
+      "retrieved_pages": [
+        167,
+        293,
+        295,
+        309,
+        311
+      ],
+      "refused": false
+    },
+    {
+      "question": "Why do we maximize the log-likelihood instead of the likelihood?",
+      "type": "why",
+      "cited_pages": [
+        147
+      ],
+      "grounded_pages": [
+        147
+      ],
+      "ungrounded_pages": [],
+      "retrieved_pages": [
+        147,
+        148,
+        149,
+        194
+      ],
+      "refused": false
+    },
+    {
+      "question": "Why do saddle points pose a problem for gradient-based optimization?",
+      "type": "why",
+      "cited_pages": [
+        301,
+        300,
+        303
+      ],
+      "grounded_pages": [
+        301,
+        300,
+        303
+      ],
+      "ungrounded_pages": [],
+      "retrieved_pages": [
+        300,
+        301,
+        303,
+        306,
+        307
+      ],
+      "refused": false
+    },
+    {
+      "question": "How does an autoencoder learn a useful representation?",
+      "type": "how",
+      "cited_pages": [
+        531
+      ],
+      "grounded_pages": [
+        531
+      ],
+      "ungrounded_pages": [],
+      "retrieved_pages": [
+        19,
+        517,
+        519,
+        531
+      ],
+      "refused": false
+    }
+  ],
+  "llama3.1:8b-instruct-q4_K_M": [
+    {
+      "question": "What is transfer learning?",
+      "type": "concept",
+      "cited_pages": [
+        551
+      ],
+      "grounded_pages": [
+        551
+      ],
+      "ungrounded_pages": [],
+      "retrieved_pages": [
+        340,
+        551,
+        553
+      ],
+      "refused": false
+    },
+    {
+      "question": "What is the curse of dimensionality?",
+      "type": "concept",
+      "cited_pages": [
+        170
+      ],
+      "grounded_pages": [
+        170
+      ],
+      "ungrounded_pages": [],
+      "retrieved_pages": [
+        129,
+        162,
+        170,
+        171
+      ],
+      "refused": false
+    },
+    {
+      "question": "What is the bias-variance tradeoff?",
+      "type": "concept",
+      "cited_pages": [
+        145
+      ],
+      "grounded_pages": [
+        145
+      ],
+      "ungrounded_pages": [],
+      "retrieved_pages": [
+        139,
+        144,
+        145
+      ],
+      "refused": false
+    },
+    {
+      "question": "What is the difference between overfitting and underfitting?",
+      "type": "comparison",
+      "cited_pages": [
+        126
+      ],
+      "grounded_pages": [
+        126
+      ],
+      "ungrounded_pages": [],
+      "retrieved_pages": [
+        126,
+        130,
+        145,
+        443,
+        444
+      ],
+      "refused": false
+    },
+    {
+      "question": "What is the difference between L1 and L2 regularization?",
+      "type": "comparison",
+      "cited_pages": [
+        251,
+        251,
+        250
+      ],
+      "grounded_pages": [
+        251,
+        251,
+        250
+      ],
+      "ungrounded_pages": [],
+      "retrieved_pages": [
+        249,
+        250,
+        251,
+        265,
+        509
+      ],
+      "refused": false
+    },
+    {
+      "question": "Why can a model with more capacity end up overfitting the training data?",
+      "type": "why",
+      "cited_pages": [
+        127
+      ],
+      "grounded_pages": [
+        127
+      ],
+      "ungrounded_pages": [],
+      "retrieved_pages": [
+        126,
+        127,
+        261,
+        297,
+        444
+      ],
+      "refused": false
+    },
+    {
+      "question": "Why do recurrent networks struggle to learn long-term dependencies?",
+      "type": "why",
+      "cited_pages": [
+        416,
+        416
+      ],
+      "grounded_pages": [
+        416,
+        416
+      ],
+      "ungrounded_pages": [],
+      "retrieved_pages": [
+        305,
+        416,
+        418,
+        426
+      ],
+      "refused": false
+    },
+    {
+      "question": "Why is the ReLU activation often preferred over the sigmoid in hidden layers?",
+      "type": "why",
+      "cited_pages": [],
+      "grounded_pages": [],
+      "ungrounded_pages": [],
+      "retrieved_pages": [
+        199,
+        210,
+        211,
+        241
+      ],
+      "refused": true
+    },
+    {
+      "question": "How is the chain rule of calculus used in backpropagation?",
+      "type": "how",
+      "cited_pages": [
+        220
+      ],
+      "grounded_pages": [
+        220
+      ],
+      "ungrounded_pages": [],
+      "retrieved_pages": [
+        220,
+        223,
+        231,
+        236,
+        240
+      ],
+      "refused": false
+    },
+    {
+      "question": "How does a convolutional layer use parameter sharing to reduce the number of parameters?",
+      "type": "how",
+      "cited_pages": [
+        373
+      ],
+      "grounded_pages": [
+        373
+      ],
+      "ungrounded_pages": [],
+      "retrieved_pages": [
+        268,
+        269,
+        350,
+        373,
+        389
+      ],
+      "refused": false
+    },
+    {
+      "question": "How can exploding gradients be handled during training?",
+      "type": "how",
+      "cited_pages": [
+        317
+      ],
+      "grounded_pages": [
+        317
+      ],
+      "ungrounded_pages": [],
+      "retrieved_pages": [
+        246,
+        305,
+        317,
+        422,
+        431
+      ],
+      "refused": false
+    },
+    {
+      "question": "How does the KL divergence relate to maximum likelihood estimation?",
+      "type": "multi-source",
+      "cited_pages": [
+        147,
+        148
+      ],
+      "grounded_pages": [
+        147,
+        148
+      ],
+      "ungrounded_pages": [],
+      "retrieved_pages": [
+        91,
+        147,
+        148,
+        654
+      ],
+      "refused": false
+    },
+    {
+      "question": "In what different ways is principal components analysis (PCA) derived in the book?",
+      "type": "multi-source",
+      "cited_pages": [
+        162,
+        514
+      ],
+      "grounded_pages": [
+        162,
+        514
+      ],
+      "ungrounded_pages": [],
+      "retrieved_pages": [
+        162,
+        163,
+        165,
+        514
+      ],
+      "refused": false
+    },
+    {
+      "question": "What are the main techniques used to regularize a deep neural network?",
+      "type": "multi-source",
+      "cited_pages": [
+        262
+      ],
+      "grounded_pages": [
+        262
+      ],
+      "ungrounded_pages": [],
+      "retrieved_pages": [
+        243,
+        244,
+        262,
+        333
+      ],
+      "refused": false
+    },
+    {
+      "question": "How is parameter sharing used across different architectures?",
+      "type": "multi-source",
+      "cited_pages": [
+        350,
+        721,
+        268
+      ],
+      "grounded_pages": [
+        350,
+        721,
+        268
+      ],
+      "ungrounded_pages": [],
+      "retrieved_pages": [
+        268,
+        269,
+        350,
+        353,
+        721
+      ],
+      "refused": false
+    },
+    {
+      "question": "Where in the book is the concept of model capacity discussed?",
+      "type": "multi-source",
+      "cited_pages": [
+        126
+      ],
+      "grounded_pages": [
+        126
+      ],
+      "ungrounded_pages": [],
+      "retrieved_pages": [
+        126,
+        127,
+        128,
+        129,
+        443
+      ],
+      "refused": false
+    },
+    {
+      "question": "What is the manifold hypothesis?",
+      "type": "concept",
+      "cited_pages": [
+        177,
+        179
+      ],
+      "grounded_pages": [
+        177,
+        179
+      ],
+      "ungrounded_pages": [],
+      "retrieved_pages": [
+        176,
+        177,
+        179
+      ],
+      "refused": false
+    },
+    {
+      "question": "What is representation learning?",
+      "type": "concept",
+      "cited_pages": [
+        542
+      ],
+      "grounded_pages": [
+        542
+      ],
+      "ungrounded_pages": [],
+      "retrieved_pages": [
+        20,
+        541,
+        542,
+        572
+      ],
+      "refused": false
+    },
+    {
+      "question": "What is weight initialization and why does it matter?",
+      "type": "concept",
+      "cited_pages": [
+        318,
+        319
+      ],
+      "grounded_pages": [
+        318,
+        319
+      ],
+      "ungrounded_pages": [],
+      "retrieved_pages": [
+        318,
+        319,
+        320
+      ],
+      "refused": false
+    },
+    {
+      "question": "What is the log-likelihood?",
+      "type": "concept",
+      "cited_pages": [
+        198
+      ],
+      "grounded_pages": [
+        198
+      ],
+      "ungrounded_pages": [],
+      "retrieved_pages": [
+        198,
+        296,
+        402,
+        482,
+        630
+      ],
+      "refused": false
+    },
+    {
+      "question": "What is the difference between directed and undirected graphical models?",
+      "type": "comparison",
+      "cited_pages": [
+        591
+      ],
+      "grounded_pages": [
+        591
+      ],
+      "ungrounded_pages": [],
+      "retrieved_pages": [
+        584,
+        591,
+        592,
+        707
+      ],
+      "refused": false
+    },
+    {
+      "question": "What is the difference between batch and stochastic gradient descent?",
+      "type": "comparison",
+      "cited_pages": [
+        293,
+        167,
+        167
+      ],
+      "grounded_pages": [
+        293,
+        167,
+        167
+      ],
+      "ungrounded_pages": [],
+      "retrieved_pages": [
+        167,
+        293,
+        295,
+        309,
+        311
+      ],
+      "refused": false
+    },
+    {
+      "question": "Why do we maximize the log-likelihood instead of the likelihood?",
+      "type": "why",
+      "cited_pages": [
+        147,
+        147
+      ],
+      "grounded_pages": [
+        147,
+        147
+      ],
+      "ungrounded_pages": [],
+      "retrieved_pages": [
+        147,
+        148,
+        149,
+        194
+      ],
+      "refused": false
+    },
+    {
+      "question": "Why do saddle points pose a problem for gradient-based optimization?",
+      "type": "why",
+      "cited_pages": [
+        301,
+        306
+      ],
+      "grounded_pages": [
+        301,
+        306
+      ],
+      "ungrounded_pages": [],
+      "retrieved_pages": [
+        300,
+        301,
+        303,
+        306,
+        307
+      ],
+      "refused": false
+    },
+    {
+      "question": "How does an autoencoder learn a useful representation?",
+      "type": "how",
+      "cited_pages": [
+        519,
+        531
+      ],
+      "grounded_pages": [
+        519,
+        531
+      ],
+      "ungrounded_pages": [],
+      "retrieved_pages": [
+        19,
+        517,
+        519,
+        531
+      ],
+      "refused": false
+    }
+  ]
+}
