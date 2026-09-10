@@ -163,6 +163,11 @@ chapter, inspect the retrieved chunks (equations rendered via KaTeX).
 - **📊 Evaluation** — the four tests above, rendered from **pre-computed, committed artifacts**. A
 visitor sees the whole comparison **without running any model, Ollama, or Chroma.**
 
+Example — a multi-intent question (*define + why + compare*) answered with per-claim citations,
+drawing on two chapters (Ch. 7 and Ch. 11):
+
+![Search page: a cited answer about dropout](docs/search-demo.png)
+
 *The Streamlit UI was built with AI assistance — it's the presentation layer, not the focus of the
 project. The pipeline, evaluation methodology, and results it displays are my own work.*
 
